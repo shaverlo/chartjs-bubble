@@ -2,11 +2,11 @@ $(document).ready(function() {
 
   var TITLE = 'Income, Test Scores, and Enrollment in Select Connecticut School Districts, 2009-13...and more';
 
-  var POINT_X = 'income$$'; // column name for x values in data.csv
+  var POINT_X = 'income'; // column name for x values in data.csv
   var POINT_X_PREFIX = '$'; // prefix for x values, eg '$'
   var POINT_X_POSTFIX = ''; // postfix for x values, eg '%'
 
-  var POINT_Y = 'grades++'; // column name for y values in data.csv
+  var POINT_Y = 'grades'; // column name for y values in data.csv
   var POINT_Y_PREFIX = ''; // prefix for x values, eg 'USD '
   var POINT_Y_POSTFIX = ''; // postfix for x values, eg ' kg'
 
@@ -21,7 +21,7 @@ $(document).ready(function() {
   var POINT_COLOR = 'rgba(5,50,155,0.8)'; // eg `black` or `rgba(10,100,44,0.8)`
 
   var X_AXIS = 'Median Household Income, USD'; // x-axis label, label in tooltip
-  var Y_AXIS = 'Grade, Relative to Average'; // y-axis label, label in tooltip
+  var Y_AXIS = 'Grade, Relative to Average++'; // y-axis label, label in tooltip
 
   var SHOW_GRID = true; // `true` to show the grid, `false` to hide
 
