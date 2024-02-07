@@ -18,7 +18,7 @@ $(document).ready(function() {
                             // if your dataset contains precise radius values
 
   var POINT_NAME = 'district'; // point names that appear in tooltip
-  var POINT_COLOR = 'rgba(5,50,255,0.8)'; // eg `black` or `rgba(10,100,44,0.8)`
+  var POINT_COLOR = 'rgba(5,50,155,0.8)'; // eg `black` or `rgba(10,100,44,0.8)`
 
   var X_AXIS = 'Median Household Income, USD'; // x-axis label, label in tooltip
   var Y_AXIS = 'Grade, Relative to Average'; // y-axis label, label in tooltip
