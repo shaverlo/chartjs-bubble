@@ -2,11 +2,11 @@ $(document).ready(function() {
 
   var TITLE = 'Income, Test Scores, and Enrollment in Select Connecticut School Districts, 2009-13...and more';
 
-  var POINT_X = 'income'; // column name for x values in data.csv
+  var POINT_X = 'income$$'; // column name for x values in data.csv
   var POINT_X_PREFIX = '$'; // prefix for x values, eg '$'
   var POINT_X_POSTFIX = ''; // postfix for x values, eg '%'
 
-  var POINT_Y = 'grades'; // column name for y values in data.csv
+  var POINT_Y = 'grades++'; // column name for y values in data.csv
   var POINT_Y_PREFIX = ''; // prefix for x values, eg 'USD '
   var POINT_Y_POSTFIX = ''; // postfix for x values, eg ' kg'
 
