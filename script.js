@@ -13,7 +13,7 @@ $(document).ready(function() {
   var POINT_R = 'enrollment'; // column name for radius in data.csv
   var POINT_R_DESCRIPTION = 'Enrollment'; // description of radius value
   var POINT_R_PREFIX = ''; // prefix for radius values, eg 'USD '
-  var POINT_R_POSTFIX = ' students'; // postfix for radius values, eg ' kg'
+  var POINT_R_POSTFIX = ' students***'; // postfix for radius values, eg ' kg'
   var R_DENOMINATOR = 800;  // use this to scale the dot sizes, or set to 1
                             // if your dataset contains precise radius values
 
